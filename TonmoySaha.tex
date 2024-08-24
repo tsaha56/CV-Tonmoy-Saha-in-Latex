@@ -1,0 +1,285 @@
+%-------------------------
+% thank you to the following person
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{geometry}
+\geometry{
+    left=0.5in,
+    right=0.5in,
+    top=0.5in,
+    bottom=0.5in,
+}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% You can choose your preferred font here.
+
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+% Not Necessary Here
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\fontsize{14}\large\bfseries}{}{0em}{}[\color{black}\vspace{2}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Tonmoy Saha} \\ \vspace{1pt} 
+    54, Shibbari, Sherpur-2100, Bangladesh \\ \vspace{1pt}
+    \small \textbar\ \href{mailto:p.tonmoy.saha@gmail.com}{p.tonmoy.saha@gmail.com} \textbar
+    \hfill \textbar\ \href{https://www.linkedin.com/in/tonmoy112/}{linkedin.com/in/tonmoy112} \textbar
+    \hfill \textbar\ \href{https://github.com/tsaha56}{github.com/tsaha56} \textbar
+    \vspace{-2pt}
+\end{center}
+
+%------RESEARCH INTERESTS-------
+\section{Research Interests}
+{Fluid Mechanics, Computational Fluid Dynamics, Thermal Energy Systems, Nanotechnology, Nanomaterials.}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Bangladesh Steel Re-Rolling Mills Ltd.}{January 2023 -- Present}
+{Production Engineer -- Rolling Unit -- Steel Product (Rebar, Angle, Channel, I-Beam)}{Chittagong, Bangladesh}
+\resumeItemListStart
+\resumeItem{Optimization and engineering design of rolling calculation to increase performance.}
+\resumeItem{Refine metallurgical testing protocols to ensure product integrity}
+\resumeItem{CAD-based design, considering material properties and mechanical requirements of rolls. }
+\resumeItem{Create and optimize CNC programs for precision cutting of rolls. }
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%\vspace{-16pt}
+%-----------EXPERIENCE-----------
+
+\section{Research Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Undergraduate Thesis Work, KUET}{ }{ }{ }
+\vspace{-15pt}
+\resumeItemListStart
+\resumeItem{ \textbf{CFD Analysis of Pulsatile Blood Flow through Bifurcating Artery and Investigating the Effect of Mechanical Properties}}
+ \begin{enumerate}
+\item [--]\textit{Purposes of conducting this simulation is to identify changes in mechanical parameters due to different artery’s geometry with respect to various fluid model which can be used to understand vascular diseases thoroughly.}
+ \end{enumerate}
+\resumeItemListEnd
+\resumeSubheading
+{Project, KUET}{ }{ }{ }
+\vspace{-15pt}
+\resumeItemListStart
+\resumeItem{\textbf{Study of Different Mechanical Properties of Woven Jute Fiber Reinforced Composites and its application as a Roofing Sheet}}
+\begin{enumerate}
+\item [--]\textit{Fabricating roofing sheet using natural fiber composites (Jute Mat, Jute Yarn and Raw jute fiber), investigate their mechanical properties and compare to conventional roofing sheet.}
+ \end{enumerate}
+\resumeItemListEnd
+\resumeSubheading
+{Project, BSRM}{ }{ }{ }
+\vspace{-15pt}
+\resumeItemListStart
+\resumeItem{\textbf{Development and Construction of an Electric Muffle Furnace}}
+\begin{enumerate}
+\item [--]\textit{ This project focused on designing and building a heat treatment furnace with an automatic control system, utilizing materials sourced locally. The primary purpose of this furnace is to heat mild steel bars to 1200°C for the heat treatment of Rebar, utilizing silicon carbide heating elements to achieve the desired temperatures.}
+ \end{enumerate}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%\vspace{-16pt}
+\section{Academic Credentials}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Khulna University of Engineering \& Technology}{2017 -- 2022}
+{Bachelor of Science in Mechanical Engineering}{Khulna, Bangladesh}
+\begin{itemize}[leftmargin=0in, label={}]
+\small{\item{
+\textbf{CGPA}{-- 3.27/4.00} \\
+}}
+\end{itemize}
+\resumeSubHeadingListEnd
+
+\section{Standardized Tests}
+\begin{itemize}[leftmargin=0in, label={}]
+{\item{
+\textbf{Graduate Record Examination (GRE)} \\ \textbf{Total Score} – 295/340\\ \textbf{Quantitative Reasoning} – 159/170, \textbf{Verbal Reasoning} – 136/170, \textbf{Analytical Writing Assessment} – 3.0/6.0.\\
+Date Taken: 18th January, 2024
+}}
+{\item{
+{\textbf{International English Language Testing System (IELTS)}\\
+\textbf{Overall Band Score} – 7.5, \textbf{Listening} – 8.5, \textbf{Reading} – 7.5, \textbf{Speaking} – 6.5, \textbf{Writing} – 6.5.\\
+Date Taken: 21st June, 2024}}}
+\end{itemize}
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0in, label={}]
+{\item{
+\textbf{CAD}{: SOLIDWORKS, Fusion 360} \\
+\vspace{2pt}
+\textbf{CAE}{: ANSYS FLUENT, ANSYS CFX, OpenFOAM, SIMULIA Abaqus, ANSYS Mechanical, LS-Dyna} \\
+\vspace{2pt}
+\textbf{Languages}{: Python, MATLAB, C, G-code, M-code, HTML, CSS} \\
+\vspace{2pt}
+\textbf{Graphics and Rendering}{: KeyShot, Illustrator, Photoshop, Blender 2.9} \\
+}}
+\end{itemize}
+\vspace{-16pt}
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in]
+\item {\textbf{Certified SolidWorks Associate (CSWA)}} – Issued by Dassault Systèmes.
+\item \textbf{Online Courses}
+\vspace{-5pt}
+\begin{itemize}
+\item Machine Learning - by Stanford University (Coursera)
+\vspace{-3pt}
+\item ENGR2000X: A Hands-on Introduction to Engineering Simulations – Cornell University (edX).
+\vspace{-3pt}
+\item Excel Skills for Business – Macquarie University (Coursera).
+\vspace{-3pt}
+\item Python for Everybody – University of Michigan (Coursera).
+\item MATLAB Programming for Engineers and Scientists – Vanderbilt University (Coursera).
+\vspace{-3pt}
+\end{itemize}
+\item \textbf{Workshop}
+\begin{itemize}
+\item AutoCAD \& SOLIDWORKS Workshop by CADers
+\vspace{-3pt}
+\item Workshop on Programming and Introduction to Robotics" arranged by LOOP
+\end{itemize}
+
+\end{itemize}
+
+\section{Technical Presentation}
+\begin{itemize}
+\item Kamrul, H., Islam, S. , \textbf{Saha, T.}, “Linear Programming Approach to Determine Balance Diet with Minimum Cost: A Case Study”, Mechanical Festival Poster Presentation, Department of Mechanical Engineering, Khulna University of Engineering \& Technology, Khulna, September 2019.
+\end{itemize}
+
+\section{Awards}
+\begin{itemize}
+\item Undergraduate Merit Scholarship throughout four academic years for satisfactory academic credentials at KUET
+\vspace{-5pt}
+\item Third Place – Line Following Robot – Mechanical Festival at Department of Mechanical Engineering, KUET, 2019.
+\vspace{-5pt}
+\end{itemize}
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular Activities}
+\begin{itemize}
+\item Organized workshops on Computational Fluid Dynamics and "Speak Out For Engineering – SOFE, Khulna Regional Heat" as Assistant General Secretary of IMechE KUET Student Chapter.
+\vspace{-5pt}
+\item Organized workshops on Programming \& Introduction to Robotics as Project Manager of LOOP - Control Engineering Club of KUET. 
+\vspace{-5pt}
+\item Led a team of four as Executive (Graphics \& Content) for Ignition 2019, a national mechanical festival by KUET's Mechanical Engineering Department.
+\vspace{-5pt}
+\item Manager (Student) of KUET Mechanical Department Soccer team.
+\vspace{-5pt}
+\item Runner Up - KUET Inter Department Chess, 2018-19 Season.
+\vspace{-5pt}
+\item President (Student) of Greater-Mymensingh-Association of KUET
+\vspace{-5pt}
+\end{itemize}
+
+\section{References}
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Dr. Md. Helal-An-Nahiyan} \\
+Professor \\
+Department of Mechanical Engineering, KUET \\
+E-mail: \href{mailto:nahiyan@me.kuet.ac.bd}{nahiyan@me.kuet.ac.bd}
+\end{minipage}
+\hspace{47pt}
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Dr. Md Shafiul Ferdous} \\
+Professor \\
+Department of Mechanical Engineering, KUET \\
+E-mail: \href{mailto:dmsferdous@me.kuet.ac.bd}{dmsferdous@me.kuet.ac.bd}\\
+\end{minipage}
+
+
+\end{document}
